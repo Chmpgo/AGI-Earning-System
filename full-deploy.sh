@@ -14,7 +14,7 @@ echo "Creating Ubuntu VM..."
 az vm create \
   --resource-group AGI-RG \
   --name AGI-VM \
-  --image UbuntuLTS \
+  --image Ubuntu2024 \
   --admin-username azureuser \
   --generate-ssh-keys
 
